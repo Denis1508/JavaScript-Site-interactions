@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>penguin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <main>
+
+        <div class = "menu" id = "menu">
+            </br>
+            <div class="BurgerButton">
+                <div class="BurgerIconBar"></div>
+                <div class="BurgerIconBar"></div>
+                <div class="BurgerIconBar"></div>
+            </div>
+            </br>
+            <img id = "logo" src="penguin.jfif" alt="penguin du club penguin">
+            </br>
+            <nav class = "MenuButton">
+                <a href="Accueil.html">Accueil</a>
+            </nav>
+            <nav class = "MenuButton">
+                <a href="Galerie.html">Galerie</a>
+            </nav >
+            <nav class = "MenuButton">
+                <a href="Contact.html">Contact</a>
+            </nav>
+            </br>
+            <button class = "MenuButton" id ="DarkModeButton">Light mode</button>
+            
+        </div>
+
+        <div class="BurgerButton" id ="BurgerButton2">
+            <div class="BurgerIconBar"></div>
+            <div class="BurgerIconBar"></div>
+            <div class="BurgerIconBar"></div>
+        </div>
+
+        <div class = "middle">
+            <header>
+                <h1>Accueil</h1>
+            </header>
+            <br/>
+            <section>
+                <h3>sauvez les penguins</h3>
+                <br/>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <br/>
+
+                <img src="penguin.jfif" alt="penguin du club penguin">
+                <br/>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <br/>
+
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" class="specialpenguin" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" class="specialpenguin" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" class="specialpenguin" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="penguin.jfif" alt="penguin du club penguin">
+                    </div>
+                  </div> 
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                <nav>
+                    <a href="Galerie.html">Voir la galerie</a>
+                </nav>
+
+            </section>
+            
+        </div>
+    </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

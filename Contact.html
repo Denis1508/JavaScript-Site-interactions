@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penguin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class = "menu" id = "menu">
+        </br>
+        <div class="BurgerButton">
+            <div class="BurgerIconBar"></div>
+            <div class="BurgerIconBar"></div>
+            <div class="BurgerIconBar"></div>
+        </div>
+        </br>
+        <img id = "logo" src="penguin.jfif" alt="penguin du club penguin">
+        </br>
+        <nav class = "MenuButton">
+            <a href="Accueil.html">Accueil</a>
+        </nav>
+        <nav class = "MenuButton">
+            <a href="Galerie.html">Galerie</a>
+        </nav >
+        <nav class = "MenuButton">
+            <a href="Contact.html">Contact</a>
+        </nav>
+        </br>
+        <button class = "MenuButton" id ="DarkModeButton">Light mode</button>
+        
+    </div>
+
+    <div class="BurgerButton" id ="BurgerButton2">
+        <div class="BurgerIconBar"></div>
+        <div class="BurgerIconBar"></div>
+        <div class="BurgerIconBar"></div>
+    </div>
+
+        <div class = "middle">
+            <header>
+                <h1>Contact</h1>
+            </header>
+            <br/>
+            <form>
+                <fieldset>
+                    <legend>Vous etes un :</legend>
+                    <select id="pro" name="pro" required> 
+                        <option value="selectionner" selected>Sélectionner :</option>
+                        <option value="particulier">Particulier</option>
+                        <option value="groupe">Groupe</option>
+                    </select>
+                    <span class = "red"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre demande concerne :</legend>
+                    <select id="demande" name="demande" required> 
+                        <option value="selectionner" selected>Sélectionner :</option>
+                        <optgroup label="Don">
+                            <option value="fairedonligne">Faire un don en ligne</option>
+                            <option value="fairedoncourrier">Faire un don par courrier</option>
+                        </optgroup>
+                        <optgroup label="Recrutement">
+                            <option value="benevole">Etre bénévole</option>
+                        </optgroup>
+                        <optgroup label="">
+                            <option value="autre">Autre</option>
+                        </optgroup>
+                    </select>
+                    <span class = "red"></span>
+                </fieldset>
+
+                <fieldset">
+                    <legend>Nom et prénom <span style="color: red;">OU</span> pseudonyme :</legend>
+                    <input type="text" id="nom" required/>
+                    <span class = "red"></span>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Email :</legend>
+                    <input type="email" id="email" required/>
+                    <span class = "red"></span>
+                </fieldset>
+
+                <fieldset id = "message">
+                    <legend>Message - 20 carateres minimun et 500 maximun</legend>
+                    <textarea name="adresse" rows="5" cols="25"></textarea>
+                    <span class = "red"></span>
+                </fieldset>
+
+                <input type="reset"/>
+                <input id = "SubmitButton" type="submit"/>
+
+            </form>
+
+            <p id ="end"></p>
+
+            <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, voluptas.</footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
